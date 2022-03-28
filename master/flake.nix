@@ -11,7 +11,6 @@
   inputs.src-nio-master.ref   = "refs/heads/master";
   inputs.src-nio-master.owner = "KayraG";
   inputs.src-nio-master.repo  = "nio";
-  inputs.src-nio-master.dir   = "";
   inputs.src-nio-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
